@@ -19,6 +19,7 @@ const CadastroCAE=()=>{
             <div className="container-cadastro">
               
               <img className="cadlogin" src={Cadlogo}></img>
+              
                 <h3 className="titulo">Cadastro de Agente CAE</h3>
                 <hr color="#d9d9d9" height="1px"></hr>
     

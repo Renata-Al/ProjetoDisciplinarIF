@@ -25,7 +25,7 @@ const Login=()=>{
             </div>
             
         </form>
-        <p id="edit">Copyright © 2025 - Renata Albuquerque. IFAM - Campus Iranduba</p>
+        <p id="edit">2025 - Renata Albuquerque. IFAM - Campus Iranduba</p>
     </div>
     );
 };
