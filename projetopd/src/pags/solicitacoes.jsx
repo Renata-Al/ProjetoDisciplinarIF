@@ -7,6 +7,7 @@ const Solicitacoes=()=>{
             <form className="form-alt">
         <div className="containe-duvidas">
             <h3 className="titulo">Solicitações e Dúvidas</h3>
+             <hr color="#d9d9d9" height="1px"></hr>
             <label>Discente:<input type="text" required></input></label>
             <label>
                 Turma:

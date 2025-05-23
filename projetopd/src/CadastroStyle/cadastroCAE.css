@@ -6,7 +6,7 @@
     padding: 20px;
     border:  1px solid #ccc;
     border-radius: 9px;
-    max-width: 600px;
+    max-width: 800px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     background-color: #f9f9f9;
 }
@@ -16,7 +16,7 @@
     gap: 15px; 
 }
 .form-cadastro{
-    max-width: 400px;
+    max-width: 500px;
 }
 form{
     width: 100%;
@@ -33,6 +33,7 @@ hr{
     text-align: center;
     color: #41A24D;
     margin-bottom: 10px;
+    font-size: 25px;
 }
 
 label {
@@ -47,6 +48,7 @@ input[type="text"],
 input[type="date"],
 input[type="password"],
 input[type="time"],
+input[type="number"],
 select,
 textarea {
     padding: 8px;
@@ -57,8 +59,8 @@ textarea {
     box-sizing: border-box;
 }
 .cadlogin{
-    width: 70%;
-    margin-left: 100px;
+    width: 30%;
+    margin-bottom: 10px;
 }
 textarea {
     resize: vertical;

@@ -18,29 +18,29 @@ const Dropdown = () => {
       {/* Link para o menu principal */}
       <div className="menu-item">
         <Link to="/" onClick={CloseMenu}>
-          Home
+         <p className="titulodrop">Home</p>
         </Link>
       </div>
       {/* início acoes cae */}
       <div className="menu-item" onMouseEnter={() => Menu("acoes")} onMouseLeave={CloseMenu}>
-        Ações da CAE
+        <p className="titulodrop">Ações da CAE</p>
         {abrirmenu === "acoes" && (
           <div className="sub-menu">
-            <Link to="/Atendimento" onClick={CloseMenu}>Atendimento ao Discente</Link>
-            <Link to="/BuscaAtiva" onClick={CloseMenu}>Busca Ativa</Link>
-            <Link to="/Justificativa" onClick={CloseMenu}>Justificativa</Link>
-            <Link to="/Disciplinar" onClick={CloseMenu}>Registro de Ocorrência</Link>
-            <Link to="/Solicitacoes" onClick={CloseMenu}>Solicitações e Dúvidas</Link>  
+            <Link to="/Atendimento" onClick={CloseMenu}><p className="sub-menudrop"> Atendimento ao Discente</p></Link>
+            <Link to="/BuscaAtiva" onClick={CloseMenu}><p className="sub-menudrop">Busca Ativa</p></Link>
+            <Link to="/Justificativa" onClick={CloseMenu}><p className="sub-menudrop">Justificativa</p></Link>
+            <Link to="/Disciplinar" onClick={CloseMenu}><p className="sub-menudrop">Registro de Ocorrência</p></Link>
+            <Link to="/Solicitacoes" onClick={CloseMenu}><p className="sub-menudrop">Solicitações e Dúvidas</p></Link>
           </div>
         )}
       </div>
       {/* fim acoes cae */}
       {/* início assistencia */}
       <div className="menu-item" onMouseEnter={() => Menu("assistencia")} onMouseLeave={CloseMenu}>
-        Assistência ao Discente
+        <p className="titulodrop">Assistência ao Discente</p>
         {abrirmenu === "assistencia" && (
           <div className="sub-menu">
-            <Link to="/Assistencia" onClick={CloseMenu}>Questionário Socioeconômico</Link>         
+            <Link to="/Assistencia" onClick={CloseMenu}><p className="sub-menudrop">Questionário Socioeconômico</p></Link>
           </div>
         )}
          {/* fim assistencia*/}
@@ -48,10 +48,12 @@ const Dropdown = () => {
        {/* início consulta */}
       {/* início gerenciar */}
       <div className="menu-item" onMouseEnter={() => Menu("gerenciar")} onMouseLeave={CloseMenu}>
-        Gerenciar
+        <p className="titulodrop">Gerenciar</p>
         {abrirmenu === "gerenciar" && (
           <div className="sub-menu">
-            <Link to="/CadastroCAE" onClick={CloseMenu}>Cadastro do Agente</Link>
+            <Link to="/CadastroCAE" onClick={CloseMenu}>
+              <p className="sub-menudrop">Cadastro do Agente</p>
+            </Link>
           </div>
         )}
       </div>
@@ -59,7 +61,7 @@ const Dropdown = () => {
        {/* início sobre */}
       <div className="menu-item">
         <Link to="/Sobre" onClick={CloseMenu}>
-          Sobre
+          <p className="titulodrop">Sobre</p>
         </Link>
       </div>
        {/*fimm sobre */}

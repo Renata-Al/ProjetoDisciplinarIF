@@ -1,0 +1,50 @@
+#main-ti{
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #41A24D;
+}
+.app-containerti{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img-inicial{
+   width: 100%;
+   height: 200px;
+}
+.titulo-inicio{
+    color: aliceblue;
+}
+.sub-inicio{
+    color: aliceblue;
+    font-size: 20px;
+}
+.bloco-1{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            background-color: #41A24D;
+        }
+        .card {
+            background: linear-gradient(135deg, #41A24D, #91b195);
+            padding: 20px;
+            width: 180px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            color: white;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.1);
+        }
+        .card h2 {
+            font-size: 22px;
+            margin-top: 10px;
+        }
+        .icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }

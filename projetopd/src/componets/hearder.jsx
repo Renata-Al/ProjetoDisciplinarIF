@@ -19,11 +19,11 @@ function Hearder(){
             <img className="logo" src={logo}></img>
             <div className="nav-bar">  
             <h2>Prontuário Disciplinar<h3 className="above">Campus Iranduba</h3></h2>
-            <p>Sistema de Prontuário Disciplinar</p>
+            <h3>Sistema de Prontuário Disciplinar</h3>
         </div>
         <div className="menu-login">
                 <Link to="/Login" onClick={CloseMenu}>
-                <h4>(Login)</h4>
+                <h4 id="textacesso">(Acesso)</h4>
                 </Link>
               </div>
         </div>

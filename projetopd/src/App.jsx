@@ -6,6 +6,7 @@ import Footer from "./componets/footer";
 import '../src/App.css'
 import './style/dropdown.css'
 
+//ROTAS SIDEBAR
 const Home = lazy(()=>import('./pags/home'))
 const Disciplinar = lazy(()=>import('./pags/disciplinar'))
 const Sobre = lazy(()=>import('./pags/sobre'))
@@ -15,7 +16,7 @@ const BuscaAtiva = lazy(()=>import('./pags/buscaativa'))
 const Login = lazy(()=>import('./pags/Login'))
 const Assistencia  = lazy(()=>import('./pags/assistencia'))
 const Justificativa = lazy(()=>import('./pags/justificativa'))
-const CadastroCAE = lazy(()=>import('./componets/cadastroCAE'))
+const CadastroCAE = lazy(()=>import('./Cadastro/cadastroCAE'))
 
 const App=()=>(
     <>
@@ -42,7 +43,6 @@ const App=()=>(
     </div>
     <Footer/>
     </div>
-   
     </>
 );
 

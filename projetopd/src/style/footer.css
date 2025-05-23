@@ -33,6 +33,12 @@ footer {
     margin-top: 20px;
     font-size: 14px;
 }
+.footer-address a{
+     color: #fff;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
 .footer-icons {
     margin-top: 10px;
 }
