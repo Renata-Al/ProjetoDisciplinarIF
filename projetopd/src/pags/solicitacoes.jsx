@@ -28,7 +28,8 @@ const Solicitacoes=()=>{
             <label className="full-width">Digite aqui sua solicitação ou dúvida:<textarea required></textarea></label>
             
             <div class="button-container"> 
-                    <button type="submit">Enviar</button>
+                    <button type="submit" onClick={()=>
+                alert("Enviado com sucesso")}>Enviar</button>
                     <button type="submit">Cancelar</button>
                 </div>
         </div>

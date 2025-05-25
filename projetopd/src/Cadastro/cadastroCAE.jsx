@@ -30,7 +30,6 @@ const CadastroCAE=()=>{
                         <label className="full-width">Nome Completo:<input type="text" required></input></label>
                         <label className="full-width">RG:<input type="number" required></input></label>
                         <label className="full-width">Data de Nascimento:<input type="date" required></input></label>
-                        <label className="full-width">Ano/Semestre inicial:<input type="number" placeholder="Ex.:'20221'" required></input></label>
                         <label className="full-width">Email:<input type="text" required></input></label>  
                         <label className="full-width">Login:<input type="text" required></input></label>          
                         <label className="full-width">Senha:<input type="password" required></input></label>

@@ -2,8 +2,10 @@
     margin-top: 100px;
     padding-top: 30px;
     padding-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     background-color: #41A24D;
+    border-bottom: 8px dashed white;
 }
 .app-containerti{
     margin-top: 20px;

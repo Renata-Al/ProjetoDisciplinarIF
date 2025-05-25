@@ -50,7 +50,8 @@ const Atendimento = () => {
           </label>
 
           <div class="button-container">
-            <button type="submit">Salvar</button>
+            <button type="submit" onClick={()=>
+                alert("Enviado com sucesso")}>Enviar</button>
             <button type="submit">Alterar</button>
             <button type="submit">Cancelar</button>
           </div>

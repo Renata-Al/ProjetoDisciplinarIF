@@ -52,7 +52,13 @@ const Dropdown = () => {
         {abrirmenu === "gerenciar" && (
           <div className="sub-menu">
             <Link to="/CadastroCAE" onClick={CloseMenu}>
-              <p className="sub-menudrop">Cadastro do Agente</p>
+              <p className="sub-menudrop">Cadastro do Agente</p>             
+            </Link>
+            <Link to="/CadastroProf" onClick={CloseMenu}>
+              <p className="sub-menudrop">Cadastro do Professor</p>             
+            </Link>
+            <Link to="/CadastroAluno" onClick={CloseMenu}>
+              <p className="sub-menudrop">Cadastro do Aluno</p>             
             </Link>
           </div>
         )}

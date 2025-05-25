@@ -50,7 +50,8 @@ const Justificativa = () => {
         </div>
 
         <div class="button-container">
-          <button type="submit">Salvar</button>
+          <button type="submit "onClick={()=>
+                alert("Salvo com sucesso")}>Salvar</button>
           <button type="submit">Alterar</button>
           <button type="submit">Cancelar</button>
         </div>
