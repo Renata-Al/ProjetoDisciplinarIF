@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 import '../src/TelaInicio.css'
 import './App.css'
 import Login from './pags/Login'
-import CadastroCAE from "../src/Cadastro/cadastroCAE"
-import CadastroAluno from "../src/Cadastro/cadastroAluno"
-import CadastroProf from "../src/Cadastro/CadastroProf"
 import Hearder from './componets/hearder'
 import Footer from './componets/footer'
 
@@ -23,24 +20,23 @@ const TelaInicio = () => {
       <div className="app-containerti">
           <Login/>
       </div>
+      <h1 className="titulo-inicio">Não possue um Cadastro?</h1>
+       <p className="sub-inicio">Cadastra-se</p>
       <div class="bloco-1">
         <div class="card">
-            <h2>Aluno</h2>
-            <Link to="/CadastroAluno">Ir para Cadastro Aluno</Link>
+            <Link to="/CadastroAluno"> <h2>Aluno</h2></Link>
         </div>
         <div class="card">
-            <h2>Professor</h2>
-            <Link to="/CadastroProf">Ir para Cadastro Professor</Link>
+            <Link to="/CadastroProf"> <h2>Professor</h2></Link>
         </div>
         <div class="card">
-            <h2>Agente CAE</h2>
-            <Link to="/CadastroCAE">Ir para Cadastro Agente CAE</Link>
+            <Link to="/CadastroCAE"> <h2>Agente CAE</h2></Link>
         </div>
     </div>
       </div>
-      
-
+   
 </div>
+
     </>
   );
 }

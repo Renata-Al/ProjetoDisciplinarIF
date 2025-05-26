@@ -3,19 +3,18 @@ import { Route, Routes } from "react-router-dom";
 import '../src/App.css'
 import './TelaInicio.jsx'
 import "./TelaInicio.css"
-import Footer from './componets/footer'
+import Footer from './componets/footer.jsx'
 import TelaInicio from "./TelaInicio.jsx";
 
 //ROTAS SIDEBAR
 
-const CadastroCAE = lazy(()=>import('./Cadastro/cadastroCAE'))
-const CadastroAluno = lazy(()=>import('./Cadastro/cadastroAluno'))
-const CadastroProf = lazy(()=>import('./Cadastro/CadastroProf'))
+const CadastroCAE = lazy(()=>import('./Cadastro/cadastroCAE.jsx'))
+const CadastroAluno = lazy(()=>import('./Cadastro/cadastroAluno.jsx'))
+const CadastroProf = lazy(()=>import('./Cadastro/CadastroProf.jsx'))
 
 const App=()=>(
-    <>
- 
 
+    <>
       <TelaInicio/>
         <div className="content">
         <Suspense fallback={<div>Loading...</div>}>
@@ -26,7 +25,7 @@ const App=()=>(
             </Routes>
         </Suspense>
         </div>
-    <Footer/>
+       <Footer/>
     </>
 );
 

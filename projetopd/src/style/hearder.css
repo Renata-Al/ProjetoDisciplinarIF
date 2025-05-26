@@ -29,6 +29,7 @@
 }
 #textacesso{
     color: #41A24D;
+    display: none when logged in;
 }
 #textacesso:hover{
     color: firebrick;
